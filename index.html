@@ -39,10 +39,27 @@
             <img id="paper" src="https://as2.ftcdn.net/jpg/01/64/65/59/500_F_164655938_0XiSjB7ZndWxyzIUakJg6q74TYzcBWv2.jpg" height= 150 width=150 alt="" onclick="rpsGame(this)">
             <img id="scissors" src="https://previews.123rf.com/images/lineartestpilot/lineartestpilot1802/lineartestpilot180290108/95741280-cartoon-barber-scissors-vector-illustration-.jpg" height= 150 width=150 alt="" onclick="rpsGame(this)">
         </div>
+    </div>
+
+    <div class="container-4">
+        <h2 id="change-my-color">Challenge 4: Change the Color of all Buttons</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="Random">Random</option>
+                    <option value="Red">Red</option>
+                    <option value="Green">Green</option>
+                    <option value="Reset">Reset</option>
+                </select>
+            </form>
+
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-danger">Yahoo</button>
+            <button class="btn btn-warning">Google</button>
+            <button class="btn btn-success">Facebook</button>
 
 
-
-
+        </div>
     </div>
     <script src="static/js/script.js"></script>
 </body>
